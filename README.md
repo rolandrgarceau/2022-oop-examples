@@ -10,6 +10,6 @@ So in here are a few of the hundreds of topics I've been ingesting this year. I 
 
 Take for instance a new workflow involving ipython notebooks and VScode I'm working on. A kernel executes cell information and outputs them into the file, which might offer more information than we wish in public. 
 
-This information may be embedded in files without really knowing all thats there that is part of the VScode Jupyter Extension, or where caching takes place for rendering. Having a larger team that handles specifics such as this allows single developers to focus on business objectives, and mine currently is to educate people on my current skillsets without having to have a face to face conversation.
+This information may be embedded in files without really knowing all thats there that is part of the several Jupyter Extensions for VScode, or where caching takes place for rendering. Having a larger team that handles specifics such as this allows single developers to focus on business objectives, and mine currently is to educate people on my current skillsets without having to have a face to face conversation.
 
 Gitlab is a great tool with a dashboard worth taking the time to re-learn, but chances are a team already has their needs well in place and I can shift towards whatever works best for them. This is here just to give you a heads up of just a fraction of what I'm working on.
