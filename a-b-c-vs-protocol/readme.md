@@ -49,7 +49,9 @@ We are aiming at separating coupling between service and diagnostics.
 
 #### Reduce coupling with collect_diagnostics 
 
-In diagnostics.py, the collect_diagnostics(device: DiagnosticsSource) method does not need to know anything about a device that connects or disconnects or send messages, it only needs to know there is a status_update method. Therefore we can completely remove the file for device.py from the equation by defining within the diagnostics.py a class DiagnosticsSource(Protocol): and now the collect_diagnostics device is of type DiagnosticsSource instead of Device. 
+In diagnostics.py, the collect_diagnostics(device: DiagnosticsSource) method does not need to know anything about a device that connects or disconnects or send messages, it only needs to know there is a status_update method. 
+
+Therefore we can completely remove the file for device.py from the equation by defining within the diagnostics.py a class DiagnosticsSource(Protocol): and now the collect_diagnostics device is of type DiagnosticsSource instead of Device. 
 
 #### Iot services similarly does not need to know about the status update method
 
